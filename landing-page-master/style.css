@@ -1,0 +1,274 @@
+/* Write some CSS below */
+.background{
+    position: relative;
+    z-index: -1;
+}
+
+h1{
+    color: white;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    text-align: center;
+}
+
+h2{
+    color: rgba(176, 79, 224, 0.838);
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+a{
+    font-size: 25px;
+    background-color: rgb(244, 183, 62);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    margin: 50px 15%;
+    padding: 10px 20px;
+    border: 1px solid hsl(37, 89%, 57%);
+    border-radius: 10px;
+    position: relative;
+    left: 20%;
+    right: 20%;
+}
+
+.words{
+    position: absolute;
+    z-index: 1;
+    display: inline;
+    top: 0;
+    left: 0;
+    margin: 130px 25%;
+}
+
+h3{
+    color: black;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    letter-spacing: -1px;
+    text-align: justify;
+    margin: 30px 45px;
+}
+
+h4{
+    color: black;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: -1px;
+    margin: 30px 60px;
+    font-weight: 900;
+    text-align: justify;
+}
+
+h5{
+    color: black;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: -2px;
+    margin: 30px 20px;
+    font-weight: 900;
+    text-align: justify;
+}
+
+h6{
+    color: black;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: -1px;
+    margin: 30px 20%;
+    font-weight: 900;
+    text-align: center;
+}
+p{
+    color: black;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.Pain{
+    width: 300px;
+    height: 350px;
+    margin: 30px;
+    padding: 20px 20px;
+    box-shadow: 5px 5px 20px 10px rgb(192, 192, 192);
+    border-radius: 20px;
+}
+
+.Baguette{
+    width: 300px;
+    height: 350px;
+    margin: 30px;
+    padding: 20px 20px;
+    box-shadow: 5px 5px 20px 10px rgb(192, 192, 192);
+    border-radius: 20px;
+}
+
+.Croissant{
+    width: 300px;
+    height: 350px;
+    margin: 30px;
+    padding: 20px 20px;
+    box-shadow: 5px 5px 20px 10px rgb(192, 192, 192);
+    border-radius: 20px;
+}
+
+.section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 100px 100px;
+}
+
+span{
+    color: white;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    margin: 80px 400px;
+    position: absolute;
+}
+
+footer{
+    background-color: burlywood;
+    width: 100%;
+    height: 200px;
+}
+
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+/* Navigation Styles */
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px 0;
+}
+
+.section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Footer Styles */
+span {
+    color: white;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    margin: 80px auto; /* Change margin to center horizontally */
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center; /* Center the text */
+}
+
+
+footer {
+    background-color: rgb(153, 88, 203);
+    color: white; /* Adjust text color for better contrast */
+    text-align: center;
+    padding: 20px 0;
+    position: relative; /* Remove absolute positioning */
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    nav ul li a {
+        font-size: 1rem;
+    }
+}
